@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+    font-family: sans-serif;
+    gap:40px;
+}
+
+.container .img{
+    position: relative;
+}
+
+.container .img::after{
+    content: "";
+    position:absolute;
+    height:100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(190, 144, 232, 0.468);
+}
+
+.box{
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+.prg h2{
+    color: white;
+    font-size: 30px;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.prg p{
+    line-height: 1.8;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.prg .box p:nth-of-type(1){
+    font-weight: bold;
+    color: white;
+}
+
+.prg .box p{
+    margin: 0;
+}
+
